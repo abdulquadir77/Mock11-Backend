@@ -58,7 +58,7 @@ app.post("/login", async (req, res) => {
   }
 });
 
-app.listen("8080", async () => {
+app.listen("5050", async () => {
   try {
     await connection;
     console.log("Successful Connected ");
@@ -66,5 +66,5 @@ app.listen("8080", async () => {
     console.log("Somthing Error in DB Connection");
     console.log(error);
   }
-  console.log("Listening On Port 8080");
+  console.log("Listening On Port 5050");
 });
